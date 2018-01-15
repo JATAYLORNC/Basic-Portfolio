@@ -13,33 +13,54 @@
 <body>
 
 	<header>
-		<h1>Jeff Taylor</h1>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</header>
-
-	<section>
-		<div>
-			<h1>About Me</h1>
-				<img src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at vestibulum orci, et rutrum lectus. Suspendisse a leo ipsum. Aenean malesuada lorem gravida nisl interdum, sit amet pretium enim rhoncus. Mauris sed sapien leo. Donec ante urna, gravida et ipsum pharetra, dapibus efficitur eros. Aliquam erat volutpat. Fusce mollis turpis ante.</p>
-		</div>
-	</section>
-
-	<aside>
-		<div>
-			<h2>Connect With Me</h2>
-			<div>
-				<a href="https://github.com/JATAYLORNC" target="_blank"><img src="assets/images/if_github_square_black_107109.png" alt="GitHub"></a>
-				<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img src="assets/images/if_linkedin_square_color_107091.png" alt="LinkedIn"></a>
-				<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+		<div class="headbox">
+			<div class="banner">
+				<div class="namebox">
+					<h1 class="name">Jeff Taylor</h1>
+				</div>
+				<div class="menu">
+					<a class="index" href="index.html">About</a>
+					<a class="portfolio" href="portfolio.html">Portfolio</a>
+					<a class="contact" href="contact.html">Contact</a>
+				</div>
 			</div>
 		</div>
-	</aside>  
+	</header>
+
+	<div class="container">
+
+		<section>
+			<div class="about">
+				<div class="ambox">
+					<h2 class="am">About Me</h2>
+				</div>
+				<div>
+					<p><img id="bio_img" src="assets/images/ProfilePicture_JAT.jpg" alt="Jeff Taylor">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at vestibulum orci, et rutrum lectus. Suspendisse a leo ipsum. Aenean malesuada lorem gravida nisl interdum, sit amet pretium enim rhoncus. Mauris sed sapien leo. Donec ante urna, gravida et ipsum pharetra, dapibus efficitur eros. Aliquam erat volutpat. Fusce mollis turpis ante.  
+					<br>
+					Proin quis mauris in neque ultrices vestibulum. Aenean tempus odio in nunc gravida, id feugiat sapien malesuada. Fusce tempus velit dui, vel convallis leo consectetur eget. Nunc interdum elit ac magna pulvinar varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi pulvinar quis nisi ut elementum. 
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<aside>
+			<div class="connect">
+				<div class="cwmbox">
+					<h2 class="cwm">Connect With Me</h2>
+				</div>
+				<div class="social">
+					<a href="https://github.com/JATAYLORNC" target="_blank"><img id="gh" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+					<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img id="li" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+					<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img id="so" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+				</div>
+			</div>
+		</aside>
+
+	</div>
 
 	<footer>
-		<p>Copyright 2016 Jeff Taylor</p>
+		<p class="footbox">&#169 Copyright 2016 Jeff Taylor</p>
 	</footer>
 
 </body>
