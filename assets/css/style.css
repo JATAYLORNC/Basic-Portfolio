@@ -5,7 +5,6 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 100%;
 	color: #777777;
-	border: 5px solid #dddddd;
 	background-image: url("../images/concrete_seamless.png");
 	background-color: transparent;
 }
@@ -84,6 +83,12 @@ h1.name {
 	width: 100%;
 }
 
+.pcontainer {
+	position: relative;
+	height: 909px;
+	width: 100%;
+}
+
 .about {
 	position: absolute;
 	width: 650px;
@@ -92,6 +97,22 @@ h1.name {
 	left: 157px;
 	margin-right: 42px;
 	margin-top: 40px;
+}
+
+.port {
+	position: absolute;
+	width: 650px;
+	height: 869px;
+	background-color: #ffffff;
+	margin-left: 157px;
+	margin-right: 42px;
+	margin-top: 40px;
+}
+
+.pfbox {
+	position: relative;
+	width: 650px;
+	height: 767px;
 }
 
 .ambox, .pfbannerbox {
@@ -156,59 +177,45 @@ h2.cwm {
 	margin-top: 24px;
 }
 
-.port {
-	position: absolute;
-	width: 650px;
-	background-color: #ffffff;
-	margin-left: 157px;
-	margin-right: 42px;
-	margin-top: 40px;
-}
-
 div.project1 {
-	position: relative;
-	width: 275px;
-	margin-right: 40px;
-	margin-left: 30px;
-	margin-top: 40px;
+	position: absolute;
+	width: 276px;
+	left: 30px;
+	top: 40px;
 }
 
 div.project2 {
-	position: relative;
-	width: 275px;
-	margin-right: 40px;
-	margin-left: 30px;
-	margin-top: 40px;
+	position: absolute;
+	width: 276px;
+	left: 345px;
+	top: 40px;
 }
 
 div.project3 {
-	position: relative;
-	width: 275px;
-	margin-right: 40px;
-	margin-left: 30px;
-	margin-top: 40px;
+	position: absolute;
+	width: 276px;
+	left: 30px;
+	top: 300px;
 }
 
 div.project4 {
-	position: relative;
-	width: 275px;
-	margin-right: 40px;
-	margin-left: 30px;
-	margin-top: 40px;
+	position: absolute;
+	width: 276px;
+	left: 345px;
+	top: 300px;
 }
 
 div.project5 {
-	position: relative;
-	width: 275px;
-	margin-right: 40px;
-	margin-left: 30px;
-	margin-top: 40px;
+	position: absolute;
+	width: 276px;
+	left: 30px;
+	top: 560px;
 }
 
 div.projectbox {
 	position: absolute;
 	top: 136px;
-	width: 275px;
+	width: 276px;
 	height: 60px;
 	background-color: #4aaaa5;
 	color: #ffffff;
