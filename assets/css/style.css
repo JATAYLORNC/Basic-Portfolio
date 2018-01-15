@@ -89,6 +89,13 @@ h1.name {
 	width: 100%;
 }
 
+.ccontainer {
+	position: relative;
+	height: 696px;
+	width: 100%;
+
+}
+
 .about {
 	position: absolute;
 	width: 650px;
@@ -104,31 +111,80 @@ h1.name {
 	width: 650px;
 	height: 869px;
 	background-color: #ffffff;
-	margin-left: 157px;
-	margin-right: 42px;
-	margin-top: 40px;
+	left: 90px;
+	top: 40px;
+}
+
+.contactbox {
+	position: absolute;
+	width: 650px;
+	height: 616px;
+	background-color: #ffffff;
+	left: 90px;
+	top: 40px;
 }
 
 .pfbox {
 	position: relative;
-	width: 650px;
+	width: 590px;
 	height: 767px;
 }
 
-.ambox, .pfbannerbox {
+.formbox {
 	position: relative;
-	height: 100px;
-	width: 588px;
-	margin-right: 42px;
-	margin-left: 30px;
-	border-bottom: 2px solid #dddddd;
+	width: 590px;
+	height: 477.8px;
+	margin-left: 30px; 
 }
 
-h2.am, h2.pf {
+.ambox, .pfbannerbox, .cbox {
+	position: relative;
+	height: 100px;
+	width: 590px;
+	margin-right: 30px;
+	margin-left: 30px;
+	border-bottom: 3px solid #dddddd;
+}
+
+h2.am, h2.pf, h2.cb {
 	position: absolute;
 	top: 39.2px;
 	font-size: 1.8em;
 	margin-top: 0px;
+}
+
+.iname {
+	margin-top: 26px;
+	margin-bottom: 6px;
+	font-size: 1.2em;
+}
+
+.iemail, .imessage {
+	margin-top: 16px;
+	margin-bottom: 6px;
+	font-size: 1.2em;
+}
+
+input[type=text] {
+	width: 570px;
+	font-size: 0.9em;
+	color: #dddddd;
+	padding: 8px;
+}
+
+textarea {
+	height: 200px;
+	width: 584px;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 120px;
+	height: 40px;
+	margin-top: 20px;
+	border: none;
+	font-size: 1.1em;
 }
 
 #bio_img {

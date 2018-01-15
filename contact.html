@@ -28,22 +28,34 @@
 		</div>
 	</header>
 
-	<section>
-		<div>
-			<h1>Contact</h1>
-				<form action="/action_page.php">
-					Name:<br>
-					<input type="text" name="fullname" value="John Smith"><br>
-					Email:<br>
-					<input type="text" name="email" value="example@gmail.com"><br>
-					Message:<br>
-					<textarea name="message"></textarea><br>
-					<input type="submit" value="submit">
-				</form>
-		</div>
-	</section>
+	<div class="ccontainer">
 
-	<aside>
+		<section>
+			<div class="contactbox">
+				<div class="cbox">
+					<h2 class="cb">Contact</h2>
+				</div>
+				<div class="formbox">
+					<form action="/action_page.php">
+						<div class="iname">
+							Name<br>
+						</div>
+						<input type="text" name="fullname" value="John Smith"><br>
+						<div class="iemail">
+							Email<br>
+						</div>
+						<input type="text" name="email" value="example@gmail.com"><br>
+						<div class="imessage">
+							Message<br>
+						</div>
+						<textarea name="message"></textarea><br>
+						<input type="submit" value="submit">
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<aside>
 			<div class="connect">
 				<div class="cwmbox">
 					<h2 class="cwm">Connect With Me</h2>
@@ -55,6 +67,8 @@
 				</div>
 			</div>
 		</aside>
+
+	</div>	
 
 	<footer>
 		<p class="footbox">&#169 Copyright 2016 Jeff Taylor</p>
