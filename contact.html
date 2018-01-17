@@ -5,18 +5,20 @@
     <meta name="author" content="Jeffrey A Taylor">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-        <title>Jeff Taylor | Contact</title>
+    <title>Jeff Taylor | Contact</title>
 </head>
 
 <body>
 
-	<header>
-		<div class="headbox">
+	<div class="wrapper">
+
+		<header>
 			<div class="banner">
 				<div class="namebox">
-					<h1 class="name">Jeff Taylor</h1>
+					<h1>Jeff Taylor</h1>
 				</div>
 				<div class="menu">
 					<a class="index" href="index.html">About</a>
@@ -24,53 +26,50 @@
 					<a class="contact" href="contact.html">Contact</a>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
 
-	<div class="ccontainer">
+		<div class="ccontainer">
 
-		<section>
-			<div class="contactbox">
+			<section class="contactbox">
 				<div class="cbox">
-					<h2 class="cb">Contact</h2>
+					<h2>Contact</h2>
 				</div>
-				<div class="formbox">
-					<form action="/action_page.php">
-						<div class="iname">
-							Name<br>
-						</div>
-						<input type="text" name="fullname" value="John Smith" oninput="textStyle()"><br>
-						<div class="iemail">
-							Email<br>
-						</div>
-						<input type="text" name="email" value="example@gmail.com"><br>
-						<div class="imessage">
-							Message<br>
-						</div>
-						<textarea name="message"></textarea><br>
-						<input type="submit" value="submit">
-					</form>
-				</div>
-			</div>
-		</section>
+				<form class="formbox" action="/action_page.php">
+					<div class="iname">
+						Name<br>
+					</div>
+					<input type="text" name="fullname" value="John Smith" oninput="textStyle()"><br>
+					<div class="iemail">
+						Email<br>
+					</div>
+					<input type="text" name="email" value="example@gmail.com"><br>
+					<div class="imessage">
+						Message<br>
+					</div>
+					<textarea name="message"></textarea><br>
+					<input type="submit" value="submit">
+				</form>
+			</section>
 
-		<aside>
-			<div class="connect">
-				<div class="cwmbox">
-					<h2 class="cwm">Connect With Me</h2>
+			<aside>
+				<div class="connect">
+					<div class="cwmbox">
+						<h2>Connect With Me</h2>
+					</div>
+					<div class="social">
+						<a href="https://github.com/JATAYLORNC" target="_blank"><img class="gh" src="assets/images/if_github_401441.png" alt="GitHub"></a>
+						<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="li" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
+						<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="so" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
+					</div>
 				</div>
-				<div class="social">
-					<a href="https://github.com/JATAYLORNC" target="_blank"><img class="gh" src="assets/images/if_github_401441.png" alt="GitHub"></a>
-					<a href="https://www.linkedin.com/in/jeffrey-a-taylor/" target="_blank"><img class="li" src="assets/images/if_linkedin_2142624.png" alt="LinkedIn"></a>
-					<a href="https://meta.stackoverflow.com/users/8870332/j-taylor" target="_blank"><img class="so" src="assets/images/if_overflow_334695.png" alt="Stack Overflow"></a>
-				</div>
-			</div>
-		</aside>
+			</aside>
 
-	</div>	
+		</div>	
+
+	</div>
 
 	<footer>
-		<p class="footbox">&#169; Copyright 2016 Jeff Taylor</p>
+		<p>&#169; Copyright 2016 Jeff Taylor</p>
 	</footer>
 
 
