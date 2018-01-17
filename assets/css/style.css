@@ -8,6 +8,7 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	background-image: url("../images/fresh_snow_@2X.png");
+	overflow: scroll;
 }
 
 .wrapper {
@@ -25,17 +26,12 @@ h1, h2, h3 {
 }
 
 header {
-	width: 100%;
+	width: 1348px;
 	height: 90px;
 	border-bottom-style: solid;
 	border-bottom-width: 2px;
 	border-bottom-color: #cccccc;
 	background-color: #ffffff;
-}
-
-div.banner {
-	position: relative;
-	width: 960px;
 }
 
 div.namebox {
@@ -56,8 +52,12 @@ div.namebox h1 {
 }
 
 .menu {
+	position: absolute;
+	left: 868px;
 	font-size: 1.1em;
 	direction: rtl;
+	height: 90px;
+	width: 300px;
 	line-height: 90px;
 }
 
@@ -225,12 +225,20 @@ input[type=submit]:hover {
 }
 
 .connect {
-	position: absolute;
 	width: 270px;
 	height: 200px;
 	background-color: #ffffff;
-	right: 210px;
 	margin-top: 40px;
+}
+
+.connect1 {
+	position: absolute;
+	left: 847px;
+}
+
+.connect2, .connect3 {
+	position: absolute;
+	left: 780px;
 }
 
 .cwmbox {
@@ -331,7 +339,7 @@ div.projectbox {
 footer {
 	clear: left;
 	background-color: #666666;
-	width: 100%;
+	width: 1348px;
 	line-height: 90px;
 	text-align: center;
 	border-top: 5px solid #4aaaa5;
